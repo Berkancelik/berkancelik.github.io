@@ -16,7 +16,7 @@
     <div class="container mt-5">
      <div class="row">
     <div class="col-md-4 form-group">
-        <textarea class="form-control" rows="10" id="inputTextArea" onclick="resetText()" oninput="convertText()"></textarea>
+        <textarea class="form-control" rows="10" id="inputTextArea" placeholder="buraya yaz" onclick="resetText()" oninput="convertText()"></textarea>
     </div>
     <div class="col-md-4 form-group">
         <select class="form-control" id="conversionType" onchange="resetText();convertText()">
