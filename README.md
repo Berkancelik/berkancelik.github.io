@@ -14,20 +14,20 @@
 <body>
 
     <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-4">
-                <textarea class="form-control" rows="10" id="inputTextArea" onclick="resetText()" oninput="convertText()"></textarea>
-            </div>
-            <div class="col-md-4">
-                <select class="form-control" id="conversionType" onchange="resetText();convertText()">
-                    <option value="textToBinary">Text to Binary</option>
-                    <option value="binaryToText">Binary to Text</option>
-                </select>
-            </div>
-            <div class="col-md-4">
-                <textarea class="form-control" rows="10" id="outputTextArea" readonly></textarea>
-            </div>
-        </div>
+     <div class="row">
+    <div class="col-md-4 form-group">
+        <textarea class="form-control" rows="10" id="inputTextArea" onclick="resetText()" oninput="convertText()"></textarea>
+    </div>
+    <div class="col-md-4 form-group">
+        <select class="form-control" id="conversionType" onchange="resetText();convertText()">
+            <option value="textToBinary">Text to Binary</option>
+            <option value="binaryToText">Binary to Text</option>
+        </select>
+    </div>
+    <div class="col-md-4 form-group">
+        <textarea class="form-control" rows="10" id="outputTextArea" readonly></textarea>
+    </div>
+</div>
 
         <div class="row mt-3 text-center">
             <div class="col-md-12">
